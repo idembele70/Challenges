@@ -1,10 +1,10 @@
 .banniere {
-    background: url('../assets/images/sanfrancisco.jpg') no-repeat center;
+    background: url('../assets/images/sanfrancisco.jpg') no-repeat;
     height:220px ;
     border-radius: 4px;
     position: relative;
-    box-shadow: 2px 2px 5px black;
-    margin-top: 10px;
+    box-shadow: 0px 4px 4px black;
+    margin-top: 25px;
 }
 
 .banniereDescription {
@@ -14,7 +14,8 @@
     position: absolute;
     bottom: 0%;
     width: 100%;
-    background: #231e1fc5;
+    font-size: 0.8em;
+    background: rgba(24,24,24,0.8);;
 }
 
 .banniereItem-1 {
@@ -25,11 +26,10 @@
     text-decoration: none;
     color: white;
     padding: 5px;
-    background: #aa6061;
+    background: url('../assets/images/fond_degraderouge.png');
+    border: 1px solid #760001;
     border-radius: 5px;
-}
+    text-align: center;
+    font-size: 1.2em;
 
-.banniereItem-2::after{
-    margin-left: 5px;
-    content: url('../assets/images/flecheblanchedroite.png');
 }
