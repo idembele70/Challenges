@@ -1,0 +1,35 @@
+.banniere {
+    background: url('../assets/images/sanfrancisco.jpg') no-repeat center;
+    height:220px ;
+    border-radius: 4px;
+    position: relative;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 10px;
+}
+
+.banniereDescription {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background: #231e1fc5;
+}
+
+.banniereItem-1 {
+    margin-left: 10px;
+}
+.banniereItem-2 {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    background: #aa6061;
+    border-radius: 5px;
+}
+
+.banniereItem-2::after{
+    margin-left: 5px;
+    content: url('../assets/images/flecheblanchedroite.png');
+}

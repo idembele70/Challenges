@@ -1,0 +1,55 @@
+
+header {
+    background: url('../assets/images/separateur.png') bottom repeat-x;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 15px;
+    
+}
+
+.titrePrincipale{
+    margin-bottom: 20px;
+}
+.titrePrincipale > h1, .titrePrincipale > h2 {
+    margin: -7px 0;
+}
+
+nav h1 {
+    font-family: serif;
+    font-size: 2em;
+    text-align: right;
+}
+
+nav img {
+    margin-right: 5px;
+}
+
+nav h2 {
+    font-size: 1em;
+    text-align: right;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+
+    padding:0px 10px;
+}
+
+.navbar {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.navbar:hover {
+    border-bottom: solid maroon ;
+}
