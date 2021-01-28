@@ -53,3 +53,35 @@ nav li {
 .navbar:hover {
     border-bottom: solid maroon ;
 }
+
+@media screen and (max-width: 800px){
+ 
+    nav ul {
+        display: none;
+    }
+    
+    .nav-container {
+        width: 20px;
+        height: 20px;
+        background: url('../assets/images/bars-solid.svg');
+        margin-right: 20px;
+    }
+    
+    .nav-containerToggle {
+        width: 20px;
+        height: 20px;
+        background: url('../assets/images/times-solid.svg') no-repeat center;
+        margin-right: 20px;
+    }
+
+    .item {
+        display: grid;
+        grid-template-columns: repeat(auto,4);
+        grid-template-rows: 1 / 1;
+    }
+
+    .itemnotDisplayed {
+        display: none;
+    }
+
+}
